@@ -1,0 +1,189 @@
+
+body {
+  max-width: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2f2f2;
+  // margin-top: calc(100% * 0.05);
+  // margin-right: auto;
+  // margin-left: auto;
+  margin: calc(100% * 0.05) calc(100% * 0.15)  0 calc(100% * 0.15);
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-family: Montserrat;
+  color: #4F4F4F;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: Montserrat;
+  color: #4F4F4F;
+  font-weight: 600;
+}
+
+h5 {
+  font-family: Montserrat;
+  color: #4F4F4F;
+  font-weight: 500;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #828282;
+}
+
+
+
+// @media only screen and (min-width: 600px) {
+//   body {
+//     width: 60%;
+//   }
+// }
+//
+// @media only screen and (min-width: 768px) {
+//   body {
+//     width: 50%;
+//   }
+// }
+
+/* Layouts */
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Card styling */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  width: 700px;
+  margin-bottom: 25px;
+  padding: 15px 20px 15px 20px;
+}
+
+/* Card-profile */
+
+#card-profile {
+  display: flex;
+  justify-content: center;
+  padding: 10px 22px 10px 22px;
+}
+
+#card-profile {
+  .flex-item-left {
+    overflow: hidden;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    // max-width: 25rem;
+  }
+}
+
+#card-profile {
+  .flex-item-right {
+    padding: 0px;
+    padding-left: 15px;
+  }
+}
+
+#avatar {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+#card-profile {
+  .flex-item-right {
+    .card-profile-top {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+// Skills card
+
+#card-skills {
+  padding: 10px 22px 20px 22px;
+}
+
+// Projects title card
+
+#card-project-header {
+  padding: 5px 22px 5px 22px;
+}
+
+// Project card
+
+#flex-card-project {
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  padding: 10px 22px 10px 22px;
+}
+
+#flex-card-project {
+  .flex-card-left {
+    // width: 28%;
+    // text-align: center;
+    overflow: hidden;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+#project-card-img {
+  object-fit: cover;
+  border-radius: 15px;
+  width: 100%;
+  // height: 100%;
+  // max-height: 180px;
+  // max-width: 180px;
+}
+
+#flex-card-project {
+  .flex-card-right {
+    align-content: space-between;
+    width: 80%;
+    padding-left: 15px;
+  }
+}
+
+#flex-card-project {
+  .flex-card-right {
+    .flex-container {
+      display: flex;
+      align-content: space-between;
+    }
+  }
+}
+
+/* Button styling */
+#button {
+
+
+  color: rgb(96, 161, 69);
+  border-radius: 8px;
+  border: 0.5px solid rgb(96, 161, 69);
+  padding: 5px;
+  margin: 2px;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+#button-demo {
+
+  left: 655px;
+  top: 1486px;
+  padding: 5px;
+  margin: 2px;
+  background: rgb(96, 161, 69);
+  border-radius: 8px;
+}
